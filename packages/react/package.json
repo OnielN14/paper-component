@@ -1,0 +1,25 @@
+{
+  "name": "@paper-component/react",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "sideEffect": false,
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Daniyal Ahmad Rizaldhi <onieln14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@paper-component/button": "*",
+    "papercss": "1.8.3",
+    "react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
